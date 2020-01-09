@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <title>shop_list</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="bar">
+                <h1>
+                    <p>
+                        <a href="#" class="payment"> <img src="image/logo.svg" alt=""></a>
+                    </p>
+                </h1>
+            </div>
+
+            <div class="content">
+                <ul>
+                    <li class="shopcar"><i class="far fa-check-circle"></i>
+                        確認購物車
+                    </li>
+                    <li><img src="image/icon_arrow.svg" alt=""></li>
+                    <li><img src="image/icon_step2.svg" alt="">
+                        選擇配送付款方式
+                    </li>
+                    <li><img src="image/icon_arrow.svg" alt=""></li>
+                    <li><img src="image/icon_step3.svg" alt="">
+                        確認訂購
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner_list">
+                <div class="banner_content">
+                    <h2>訂單明細</h2>
+                    <p>(JC293016)</p>
+                </div>
+                <div class="banner_money">
+                    <ul>
+                        <li>商品小計 NT$880</li>
+                        <li>運費 NT$60</li>
+                        <li>總金額
+                            <span class="list">NT$940</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="focus">
+                <ul>
+                    <li>
+                        <img src="image/icon_store.svg" alt="">
+                    </li>
+                    <li>
+                        <h1>超商取貨 付款</h1>
+                    </li>
+                </ul>
+            </div>
+            <div class="shop">
+                <div class="shop_left">
+                    <ul>
+                        <li>
+                            <h3>選擇取貨門市</h3>
+                        </li>
+                        <li>
+                            <img src="image/logo_family.png" alt="" width="133px" height="24px">
+                        </li>
+                    </ul>
+                </div>
+                <div class="shop_right">
+                    <ul>
+                        <li>
+                            <img src="image/icon_add.svg" alt="">
+                            <span style="color: #909399;">選擇取貨門市</span>
+                        </li>
+                        <li>
+                            <img src="image/icon_like.svg" alt="" width="15px" height="14px">
+                            選擇常用門市
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="shop_list">
+                <ul class="shop_list1">
+                    <li class="shop_news">
+                        <p class="store">取貨店名</p>
+                        <p class="store1">復興</p>
+                        <p class="store2"><img src="image/icon_star.svg" alt="">
+                            <span>儲存至常用門市</span>
+                        </p>
+                    </li>
+                    <li class="border">
+                        <p class="location">取貨地址</p>
+                        <p class="location1">台北市大安區復興路999段99號1巷</p>
+                    </li>
+                </ul>
+                <div class="shop_location">
+                    <ul>
+                        <li>
+                            <h3>南山</h3>
+                            <p>台北市大安區復興路999段99號1巷</p>
+                        </li>
+                        <li>
+                            <h3>台北車站</h3>
+                            <p>台北市大安區復興路999段99號1巷</p>
+                        </li>
+                        <li class="location1">
+                            <h3>京站</h3>
+                            <p>台北市大安區復興路999段99號1巷</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="news">
+                <h3>填寫訂購人資訊</h3>
+                <div class="form-info">
+                    <div>
+                        <label class="persondata">姓名</label>
+                        <input id="person" type="text" placeholder="請填寫真實姓名" name="person" size="28" id="person">
+                        <label class="phonedata" for="phone">手機</label>
+                        <select name="phone-form" id="" class="form">
+                            <option value="台灣">886</option>
+                            <option value="香港">852</option>
+                            <option value="日本">81</option>
+                        </select>
+                        <input id="phone" type="text" placeholder="" size="22" id="phone" style="border-color: red">
+                        <img src="image/icon_error.svg" alt="">
+                        <span class="note">格式錯誤</span>
+                    </div>
+                    <div>
+                        <label for="address" for="address">地址</label>
+                        <input id="address_number" type="text" placeholder="郵遞區號" name="address_number" size="14"
+                            id="person">
+                        <input id="address_content" type="text" placeholder="例：新北市信義區復興路999段99號1巷8樓"
+                            name="address_number" size="77" id="person" style="border-color: red">
+                        <span class="important">本欄位為必填</span>
+                    </div>
+                    <div>
+                        <label class="email">Email</label>
+                        <input id="email_news" type="text" placeholder="" name="person" size="93" id="person">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="person_news">
+                <h3>填寫收件人資訊</h3>
+                <div class="person_news_focus">
+                    <div>
+                        <p>
+                            <img src="image/icon_oncheck.svg" alt="">
+                            同訂購人資料
+                        </p>
+                    </div>
+                    <div>
+                        <label class="person2">收件人</label>
+                        <input id="person1" type="text" placeholder="請填寫真實姓名" name="person" size="30" id="person">
+                        <label class="phonedata" for="phone">手機</label>
+                        <select name="phone-form" id="" class="form">
+                            <option value="台灣">886</option>
+                            <option value="香港">852</option>
+                            <option value="日本">81</option>
+                        </select>
+                        <input id="phone1" type="text" placeholder="" size="32" id="phone">
+                    </div>
+                    <div>
+                        <label for="address2" for="address">寄送地址</label>
+                        <input id="address_number1" type="text" placeholder="郵遞區號" name="address_number" size="14"
+                            id="person">
+                        <input id="address_content1" type="text" placeholder="例：新北市信義區復興路999段99號1巷8樓"
+                            name="address_number" size="76" id="person">
+                    </div>
+                    <div>
+                        <label class="email2">Email</label>
+                        <input id="email1" type="text" placeholder="" name="person" size="93" id="person">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="list">
+                    <li>・請確認您填寫的資料是否正確，一旦訂單完成後，付款與物流方式皆無法修改。</li>
+                    <li>・若訂單內含預購、無庫存商品調貨時間請參考「商品平均調貨時間」。 </li>
+                    <li>・若您對取貨或付款的方式有疑問，請詳閱
+                        <a href="#" class="shop_list">「購買說明」</a>
+                        。
+                    </li>
+                    <li class="list_end">・請確認您已詳閱並瞭解本站
+                        <a href="#" class="shop_list">「購買說明」</a>
+                        內容，訂單完成即表示您已同意其中的各項說明。
+                    </li>
+                </ul>
+                <img src="image/icon_notice.svg" alt="" width="180px" height="149px">
+            </div>
+
+            <div class="confirm">
+                <ul>
+                    <li>
+                        <img src="image/icon_confirm.svg" alt="">確認，我已瞭解
+                    </li>
+                    <li>
+                        <img src="image/icon_check_error.svg" alt="">確認，我已瞭解 <span>請確認</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer container">
+                <button class="previous" type="previous">上一步</button>
+                <button class="next" type="next">下一步</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
